@@ -154,8 +154,10 @@
               </div>
               <div class="col-md-4">
                 <fieldset>
+                  <div>
                   <span>Departure Date：</span>
-                  <vuestic-date-picker></vuestic-date-picker>
+                    <vuestic-date-picker :date="startTime" :option="option"></vuestic-date-picker>
+                  </div>
                 </fieldset>
               </div>
             </div>
@@ -281,7 +283,7 @@
   import VuesticSwitch from '../../../components/vuestic-components/vuestic-switch/VuesticSwitch'
   import VuesticSimpleSelect from '../../../components/vuestic-components/vuestic-simple-select/VuesticSimpleSelect'
   import VuesticMultiSelect from '../../../components/vuestic-components/vuestic-multi-select/VuesticMultiSelect'
-  import VuesticDatePicker from '../../../components/vuestic-components/vuestic-datepicker/VuesticDatePicker'
+  import VuesticDatePicker from '../../../components/vuestic-components/vuestic-date-picker/VuesticDatePicker'
   import CountriesList from '../CountriesList'
 
   export default {
@@ -303,6 +305,19 @@
     },
     data () {
       return {
+        startTime: {
+          time: ''
+        },
+        endtime: {
+          time: ''
+        },
+
+        option: {
+          type: 'min',
+          SundayFirst: true,
+          format: 'YYYY/MM/DD HH:mm',
+          placeholder: '時間を選択'
+        },
         isMale: true,
         countriesList: CountriesList,
         chosenCountry: '',
