@@ -76,6 +76,7 @@
       "inputWithClearButton": "Input With Clear Button",
       "inputWithRoundButton": "Input With Round Button",
       "textInput": "Text Input",
+      "datepicker": "Date Picker",
       "textInputWithDescription": "Text Input (with description)",
       "textArea": "Text Area",
       "title": "Inputs",

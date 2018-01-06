@@ -10,8 +10,8 @@
                 <fieldset>
                   <div class="form-group">
                     <div class="input-group">
-                      <input id="simple-input" required/>
-                      <label class="control-label" for="simple-input">{{'forms.inputs.textInput' | translate}}</label><i class="bar"></i>
+                      <input id="date-picker" required/>
+                      <label class="control-label" for="date-picker">{{'forms.inputs.textInput' | translate}}</label><i class="bar"></i>
                     </div>
                   </div>
                   <div class="form-group with-icon-right"
@@ -155,8 +155,18 @@
               <div class="col-md-4">
                 <fieldset>
                   <div>
-                  <span>Departure Date：</span>
-                    <vuestic-date-picker :date="startTime" :option="option"></vuestic-date-picker>
+                    <div class="form-group">
+                      <div class="input-group">
+                      <vuestic-date-picker :date="startTime" :option="option"></vuestic-date-picker>
+
+
+
+  </div><div class="input-group">
+                      <input id="simple-input" required/>
+                      <label class="control-label" for="simple-input">{{'forms.inputs.textInput' | translate}}</label><i class="bar"></i>
+                      </div>
+                      <input type
+                    </div>
                   </div>
                 </fieldset>
               </div>
@@ -315,8 +325,7 @@
         option: {
           type: 'min',
           SundayFirst: true,
-          format: 'YYYY/MM/DD HH:mm',
-          placeholder: '時間を選択'
+          format: 'YYYY/MM/DD HH:mm'
         },
         isMale: true,
         countriesList: CountriesList,
