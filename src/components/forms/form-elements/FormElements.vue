@@ -158,14 +158,7 @@
                     <div class="form-group">
                       <div class="input-group">
                       <vuestic-date-picker :date="startTime" :option="option"></vuestic-date-picker>
-
-
-
-  </div><div class="input-group">
-                      <input id="simple-input" required/>
-                      <label class="control-label" for="simple-input">{{'forms.inputs.textInput' | translate}}</label><i class="bar"></i>
                       </div>
-                      <input type
                     </div>
                   </div>
                 </fieldset>
@@ -279,6 +272,61 @@
                     <span slot="trueTitle">{{'forms.controls.male' | translate}}</span>
                     <span slot="falseTitle">{{'forms.controls.female' | translate}}</span>
                   </vuestic-switch>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </vuestic-widget>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <vuestic-widget :headerText="'forms.controls.title' | translate">
+          <form>
+            <div class="row">
+              <div class="col-md-4">
+                <fieldset>
+                  <div class="abc-checkbox abc-checkbox-primary">
+                    <input id="checkbox1" type="checkbox">
+                    <label for="checkbox1">
+                      <span class="abc-label-text">test</span>
+                    </label>
+                    <input id="checkbox2" type="checkbox" checked>
+                    <label for="checkbox2">
+                      <span class="abc-label-text">{{'forms.controls.subscribe' | translate}}</span>
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+
+              <div class="col-md-4">
+                <fieldset>
+                  <div class="abc-checkbox abc-checkbox-primary abc-checkbox-circle">
+                    <input id="checkbox7" type="checkbox">
+                    <label for="checkbox7">
+                      <span class="abc-label-text">{{'forms.controls.subscribe' | translate}}</span>
+                    </label>
+                    <input id="checkbox8" type="checkbox" checked>
+                    <label for="checkbox8">
+                      <span class="abc-label-text">{{'forms.controls.subscribe' | translate}}</span>
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+
+              <div class="col-md-4">
+                <fieldset>
+                  <div class="radio abc-radio abc-radio-primary">
+                    <input type="radio" name="radio1" id="radio1" value="option1" checked>
+                    <label for="radio1">
+                      <span class="abc-label-text">{{'forms.controls.radio' | translate}}</span>
+                    </label>
+                    <input type="radio" name="radio1" id="radio2" value="option2">
+                    <label for="radio2">
+                      <span class="abc-label-text">{{'forms.controls.radio' | translate}}</span>
+                    </label>
+                  </div>
                 </fieldset>
               </div>
             </div>
