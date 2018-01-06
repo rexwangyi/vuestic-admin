@@ -118,7 +118,7 @@
     "spanish": "Spanish"
   },
   "menu": {
-    "auth": "Auth",
+    "auth": "認証",
     "buttons": "Buttons",
     "charts": "Charts",
     "dashboard": "Dashboard",
@@ -134,7 +134,7 @@
     "progressBars": "Progress Bars",
     "signUp": "Sign up",
     "statistics": "Statistics",
-    "tables": "Tables",
+    "tables": "テーブル",
     "typography": "Typography",
     "uiElements": "UI Elements"
   },

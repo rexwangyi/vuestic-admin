@@ -28,11 +28,13 @@
   export default {
     name: 'login'
   }
+
 </script>
 
 <style lang="scss">
   @import '../../../sass/variables';
   @import '../../../../node_modules/bootstrap/scss/mixins/breakpoints';
+  @import '../../../../node_modules/bootstrap/scss/functions';
   @import '../../../../node_modules/bootstrap/scss/variables';
   .login {
     @include media-breakpoint-down(md) {
@@ -55,4 +57,5 @@
       margin-top: 3.125rem;
     }
   }
+
 </style>

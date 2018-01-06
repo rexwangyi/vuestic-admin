@@ -8,10 +8,12 @@ export default {
       evt.preventDefault()
       let isShown = el.classList.contains('show')
       setTimeout(() => el.classList.toggle('show', !isShown))
+      setTimeout(() => ddMenu.classList.toggle('show', !isShown))
     })
 
     window.addEventListener('click', function () {
       el.classList.remove('show')
+      ddMenu.classList.remove('show')
     })
 
     ddMenu.addEventListener('click', function (evt) {

@@ -152,6 +152,12 @@
                   </vuestic-multi-select>
                 </fieldset>
               </div>
+              <div class="col-md-4">
+                <fieldset>
+                  <span>Departure Date：</span>
+                  <vuestic-date-picker></vuestic-date-picker>
+                </fieldset>
+              </div>
             </div>
           </form>
         </vuestic-widget>
@@ -275,6 +281,7 @@
   import VuesticSwitch from '../../../components/vuestic-components/vuestic-switch/VuesticSwitch'
   import VuesticSimpleSelect from '../../../components/vuestic-components/vuestic-simple-select/VuesticSimpleSelect'
   import VuesticMultiSelect from '../../../components/vuestic-components/vuestic-multi-select/VuesticMultiSelect'
+  import VuesticDatePicker from '../../../components/vuestic-components/vuestic-datepicker/VuesticDatePicker'
   import CountriesList from '../CountriesList'
 
   export default {
@@ -282,7 +289,8 @@
     components: {
       VuesticSwitch,
       VuesticSimpleSelect,
-      VuesticMultiSelect
+      VuesticMultiSelect,
+      VuesticDatePicker
     },
     computed: {
       isSuccessfulEmailValid () {

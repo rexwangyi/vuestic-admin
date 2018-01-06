@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/epicmaxco/vuestic-admin.git"
+    "url": "https://github.com/rexwangyi/vuestic-admin.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -19,8 +19,8 @@
     "ammap3": "github:amcharts/ammap3",
     "awesome-bootstrap-checkbox": "1.0.0-alpha.5",
     "babel-polyfill": "^6.26.0",
-    "bootstrap": "4.0.0-alpha.6",
-    "bootstrap-vue": "^0.9.0",
+    "bootstrap": "^4.0.0-beta.3",
+    "bootstrap-vue": "^1.4.0",
     "bulma": "^0.6.1",
     "chart.js": "^2.6.0",
     "detect-browser": "^1.7.1",
@@ -37,6 +37,7 @@
     "vue": "2.5.2",
     "vue-bulma-expanding": "0.0.1",
     "vue-chartjs": "^2.8.1",
+    "vue-datepicker": "^1.3.0",
     "vue-router": "^3.0.1",
     "vue-slider-component": "2.3.3",
     "vue2-circle-progress": "^1.0.3",

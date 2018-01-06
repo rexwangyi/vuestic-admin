@@ -49,14 +49,6 @@ export default {
       ]
     },
     {
-      name: 'Spinners',
-      path: '/ui/spinners',
-      component: lazyLoading('ui/spinners/Spinners'),
-      meta: {
-        title: 'menu.spinners'
-      }
-    },
-    {
       name: 'Grid',
       path: '/ui/grid',
       component: lazyLoading('ui/grid/Grid'),
